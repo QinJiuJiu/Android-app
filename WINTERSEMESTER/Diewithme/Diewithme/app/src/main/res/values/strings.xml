@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">扯淡聊天室</string>
+    <string name="send">Biu!Biu!</string>
+    <string name="input_text_hint">说话！！</string>
+    <string name="input_some_text">倒是说点话啊您</string>
+    <string name="to_long_message">您的废话太长了</string>
+    <string name="new_message_notification">好消息！好消息！</string>
+    <string name="send_message_notification">扯淡聊天室来新单啦！</string>
+    <string name="push_to_read">Push to read</string>
+    <string name="return_in_chat">按下即可回归组织</string>
+    <string name="notify_battery">您的欧气只剩下</string>
+    <string name="battery_notice">扯淡聊天室欢迎您！ </string>
+    <string name="you_sign_out">您是被踢出的群聊！</string>
+    <string name="welcome">欢迎加入FFF团大组织！</string>
+    <string name="error_sign_in">您没有注册资格，请修炼后再来</string>
+    <string name="welcome_sign">欢迎！欢迎！</string>
+    <string name="input_when_battery_over_15">百分之百的欧皇不配拥有聊天室</string>
+</resources>

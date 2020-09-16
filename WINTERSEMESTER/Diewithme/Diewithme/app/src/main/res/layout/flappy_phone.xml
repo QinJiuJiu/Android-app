@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#F44336"
+    android:paddingBottom="16dp" tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="心情不好来扔手机鸭"
+        android:id="@+id/Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="飞行时长"
+        android:id="@+id/ResultLabel"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Name"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0.0 s"
+        android:id="@+id/Result"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/ResultLabel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="最高飞行记录"
+        android:id="@+id/HighScoreLabel"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/Result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0.0 s"
+        android:id="@+id/HighScore"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/HighScoreLabel"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启飞行模式"
+        android:id="@+id/PlayAgain"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginRight="0dp"
+        android:onClick="throwPhone" />
+
+</RelativeLayout>

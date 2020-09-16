@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="溜了溜了" app:showAsAction="never"
+        android:id="@+id/menu_sign_out"/>
+
+    <item android:title="要这手机有何用" app:showAsAction="never"
+        android:id="@+id/game"/>
+
+</menu>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "457222238227",
+    "firebase_url": "https://fir-ec425.firebaseio.com",
+    "project_id": "fir-ec425",
+    "storage_bucket": "fir-ec425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457222238227:android:e70ec5da35277f26314fe6",
+        "android_client_info": {
+          "package_name": "com.example.diewithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457222238227-m5m0uuv83rdop1blg9bku733rl18eh8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diewithme",
+            "certificate_hash": "d7add74413794ad8e9428902feb2e080272d0dfb"
+          }
+        },
+        {
+          "client_id": "457222238227-ms50qpevb9v0g14bbsf5cgoeomkk7qvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWP8seTrEuXHazS8pGczlMkpXtYYL-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457222238227-ms50qpevb9v0g14bbsf5cgoeomkk7qvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457222238227:android:1c28a4cdc0e289b5314fe6",
+        "android_client_info": {
+          "package_name": "ru.macroid.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457222238227-ms50qpevb9v0g14bbsf5cgoeomkk7qvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWP8seTrEuXHazS8pGczlMkpXtYYL-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457222238227-ms50qpevb9v0g14bbsf5cgoeomkk7qvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

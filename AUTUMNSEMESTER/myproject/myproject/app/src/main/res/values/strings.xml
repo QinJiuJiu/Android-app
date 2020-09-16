@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">memo</string>
+    <string name="title_home">Agenda</string>
+    <string name="title_dashboard">TODO</string>
+    <string name="title_notifications">Files</string>
+    <string name="title_mine">Settings</string>
+    <string name="text_back">返回</string>
+    <string name="text_forward">前进</string>
+</resources>

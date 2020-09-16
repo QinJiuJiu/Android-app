@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    tools:context=".MainActivity">
+
+    <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Title "
+            android:selectAllOnFocus="true" />
+
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_fileorg"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Save to "
+            android:textSize="16sp" />
+        <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:selectAllOnFocus="true" />
+    </TableRow>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:text=" "
+        android:textSize="16sp" />
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_state"/>
+
+        <Button
+            android:id="@+id/button_state"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="State" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_state"
+            android:textSize="16sp"/>
+
+
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_priority"/>
+        <Button
+            android:text="Priority #"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_priority" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_priority"
+            android:textSize="16sp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_tags"/>
+        <Button
+            android:text="Tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_tags" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_tags"
+            android:textSize="16sp"/>
+    </TableRow>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:text=" "
+        android:textSize="16sp" />
+
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_scheduled"/>
+
+        <Button
+            android:text="Scheduled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_schedule" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_schedule"
+            android:textSize="16sp"/>
+
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_deadline"/>
+
+        <Button
+            android:text="deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_deadline" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_deadline"
+            android:textSize="16sp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_showon"/>
+
+        <Button
+            android:text="show on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_showon" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_showon"
+            android:textSize="16sp"/>
+    </TableRow>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:text=" "
+        android:textSize="16sp" />
+
+    <TableRow>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_notes"/>
+
+        <Button
+            android:text="notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/button_notes" />
+
+        <Button
+            android:text="edit notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:textColor="#008AD4"
+            android:id="@+id/button_editnotes" />
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="16sp" />
+
+    <Button
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/button_save" />
+
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#00FFFFFF"
+        android:id="@+id/tttnotes"
+        android:textSize="16sp" />
+
+
+
+</TableLayout>

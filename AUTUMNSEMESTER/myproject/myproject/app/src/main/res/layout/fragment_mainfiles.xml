@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/mf_guide"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@color/titlecolor" >
+        <RelativeLayout
+            android:id="@+id/title_part"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/mf_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="new files"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/btn_back"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_below="@+id/title_part"
+            android:iconifiedByDefault="false"
+            android:inputType="textFilter">
+        </SearchView>
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/mf_listView"
+            style="@style/listviewstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</LinearLayout>
